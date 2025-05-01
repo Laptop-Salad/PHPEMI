@@ -1,5 +1,12 @@
 {
     "require": {
-        "nikic/php-parser": "^5.4"
+      "nikic/php-parser": "^5.4",
+      "ext-sqlite3": "*",
+        "illuminate/database": "^12.11"
+    },
+    "autoload": {
+      "psr-4": {
+        "Models\\": "models/"
+      }
     }
 }
